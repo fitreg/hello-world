@@ -29,6 +29,14 @@
     </site>
   </distributionManagement>
 
+         <distributionManagement>
+    <site>
+      <id>admin</id>
+      <name>Mail@099</name>
+      <url>http://192.168.0.102:8081/repository/helloworld/</url>
+    </site>
+  </distributionManagement>
+
   <build>
     <plugins>
       <plugin>
@@ -196,6 +204,14 @@
         <version>1.2.1</version>
         <scope>test</scope>
       </dependency>
+           
+<dependency>
+    <groupId>org.sonatype.nexus.plugins</groupId>
+    <artifactId>nexus-repository-maven</artifactId>
+    <version>3.16.1-02</version>
+    <scope>provided</scope>
+</dependency>
+
 
       <dependency>
         <groupId>org.mockito</groupId>
