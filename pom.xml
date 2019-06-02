@@ -28,8 +28,7 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
-
-         <distributionManagement>
+  <distributionManagement>
     <site>
       <id>admin</id>
       <name>Mail@099</name>
