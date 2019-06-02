@@ -28,13 +28,13 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
-  <distributionManagement>
+ <!-- <distributionManagement>
     <site>
       <id>admin</id>
       <name>Mail@099</name>
       <url>http://192.168.0.102:8081/repository/helloworld/</url>
     </site>
-  </distributionManagement>
+  </distributionManagement> -->
 
   <build>
     <plugins>
