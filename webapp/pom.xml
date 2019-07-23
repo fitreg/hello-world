@@ -33,12 +33,25 @@
       <artifactId>servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
-
+</dependencies>
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
       <scope>provided</scope>
     </dependency>
-  </dependencies>
+           <distributionManagement>
+        <repository>
+            <id>my_repo</id>
+            <name>my_repo</name>
+            <url>http://localhost:8081/repository/artifact-example/</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://localhost:8081/repository/artifact-example/</url>
+        </snapshotRepository>
+    </distributionManagement>
+  
 
 </project>
